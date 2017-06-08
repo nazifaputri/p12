@@ -1,0 +1,19 @@
+# include <iostream> 
+
+using namespace std; 
+
+void main() 
+{ 
+  int i=0; 
+  float suhu[5]; //array dengan 5 elemen bertipe float 
+  for (i=0; i<5; i++) 
+  { 
+    cout<<i+1<<" : ";  // membaca data dari keyborad dan menyimpan ke array 
+    cin >> suhu [i]; 
+  } 
+   
+  //Menampilkan isi array ke layar 
+  cout<<"Data suhu yang anda masukkan : "<<endl; 
+  for (i=0; i<5; i++) 
+    cout <<suhu[i]<<endl; 
+} 
